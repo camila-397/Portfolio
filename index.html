@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Portafolio, Desarrollo, web, Camila">
+    <meta name="description" content="Portafolio personal con proyectos destacados, habilidades profesionales y una presentación clara de mi experiencia y trabajo creativo."">
+    <meta name="author" content="Laura Camila Urbano Suarez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio personal</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="icon" href="./assets/ICO/ico.ico" type="image/x-icon">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript"> emailjs.init('-Xa6GbYOA9TilZWsB') </script>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="nombre">
+            <h1>Camila <span>Urbano</span></h1>
+        </div>
+        <input type="checkbox" id="menu" class="check_menu">
+        <label for="menu"><img src="./assets/iconos/bars.png" alt="icono de menú"></label>
+        <nav>
+            <ul>
+                <li><a href='#inicio'>Inicio</a></li>
+                <li><a href='#sobreMi'>Sobre mi</a></li>
+                <li><a href='#certificados'>Certificados</a></li>
+                <li><a href='#proyectos'>Portafolio</a></li>
+                <li><a href='#contacto'>Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- INICIO -->
+    <section id="inicio">
+        <div class="container_datos">
+            <div class="datos">
+                <h2 class="nombre_completo">
+                    Laura Camila Urbano Suarez
+                </h2>
+                <p class="oficio">
+                    Egrasada de Ingeniería de Sistemas
+                </p>
+            </div>
+            <div class="btn_hablame">
+                <a href="#contacto">Háblame <i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="foto">
+        </div>
+    </section>
+
+    <!-- CONOCIMIENTOS -->
+    <section id="skills">
+        <h2>Mis conocimientos</h2>
+        <div class="container_skills">
+            <!-- Primera fila -->
+            <div class="card_skill">
+                <div class="title_skill">
+                    <i class="fa-brands fa-html5"></i>
+                    <span>HTML</span>
+                </div>
+                <p>Intermedio</p>
+            </div>
+    
+            <div class="card_skill">
+                <div class="title_skill">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <span>CSS</span>
+                </div>
+                <p>Intermedio</p>
+            </div>
+    
+            <div class="card_skill">
+                <div class="title_skill">
+                    <i class="fa-brands fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+                <p>Intermedio</p>
+            </div>
+    
+            <div class="card_skill">
+                <div class="title_skill">
+                    <span>TailwindCSS</span>
+                </div>
+                <p>Intermedio</p>
+            </div>
+    
+            <div class="card_skill">
+                <div class="title_skill">
+                    <span>Bootstrap</span>
+                </div>
+                <p>Basico</p>
+            </div>
+    
+            <div class="card_skill">
+                <div class="title_skill">
+                    <i class="fa-brands fa-react"></i>
+                    <span>React</span>
+                </div>
+                <p>Basico</p>
+            </div>
+    
+            <div class="card_skill">
+                <div class="title_skill">
+                    <i class="fa-brands fa-github"></i>
+                    <span>Git</span>
+                </div>
+                <p>Basico</p>
+            </div>
+    
+            <!-- Segunda fila (duplicada para loop infinito) -->
+            <!-- Copias EXACTAS de las de arriba -->
+            <div class="card_skill">
+                <div class="title_skill">
+                    <i class="fa-brands fa-html5"></i>
+                    <span>HTML</span>
+                </div>
+                <p>Intermedio</p>
+            </div>
+    
+            <div class="card_skill">
+                <div class="title_skill">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <span>CSS</span>
+                </div>
+                <p>Intermedio</p>
+            </div>
+    
+            <div class="card_skill">
+                <div class="title_skill">
+                    <i class="fa-brands fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+                <p>Intermedio</p>
+            </div>
+    
+            <div class="card_skill">
+                <div class="title_skill">
+                    <span>TailwindCSS</span>
+                </div>
+                <p>Intermedio</p>
+            </div>
+    
+            <div class="card_skill">
+                <div class="title_skill">
+                    <span>Bootstrap</span>
+                </div>
+                <p>Basico</p>
+            </div>
+    
+            <div class="card_skill">
+                <div class="title_skill">
+                    <i class="fa-brands fa-react"></i>
+                    <span>React</span>
+                </div>
+                <p>Basico</p>
+            </div>
+    
+            <div class="card_skill">
+                <div class="title_skill">
+                    <i class="fa-brands fa-github"></i>
+                    <span>Git</span>
+                </div>
+                <p>Basico</p>
+            </div>
+    
+        </div>
+    </section>
+
+    <!-- PERFIL -->
+    <section id="sobreMi">
+        <h2>Sobre mi</h2>
+
+        <div class="info">
+            <div class="foto_sobreMi">
+                <img src="./assets/camila/yo.png" alt="Foto de Camila Urbano"/>
+            </div>
+
+            <div class="info_sobreMi">
+
+                <div class="btn_sobreMi">
+
+                    <div id="perfil" class="category_btn">
+                        <span>Perfil</span>
+                    </div>
+                    <div id="educacion" class="category_btn">
+                        <span>Educacion</span>
+                    </div>
+                    <div id="intereses" class="category_btn">
+                        <span>Intereses</span>
+                    </div>
+
+                </div>
+
+                <div class="info_categorias">
+
+                    <div id="cat_perfil" class="category_content">
+                        <p>
+                            Soy egresada de Ingeniería de Sistemas con conocimiento sobre HTML5, CSS3, JavaScript, MySQL, React, Git. Como aspirante a profesional en el campo del desarrollo, tengo un gran interés en aprender y aplicar mis conocimientos en proyectos y desafíos reales. <br /><br />
+                            Estoy comprometida con mi crecimiento profesional y con la búsqueda constante de nuevas habilidades y tecnologías. Estoy segura de que con mi compromiso, actitud positiva y disposición para aprender, estaré lista para enfrentar cualquier desafío en el campo laboral.
+                        </p>
+                    </div>
+
+                    <div id="cat_educacion" class="category_content">
+                        <p>
+                            <b style="color: black;">Institucion educativa Gabriela Mistral</b><br>
+                            <span>2002-2015</span><br>
+                            <span>Básica secundaria</span>
+                        </p>
+                        <br />
+                        <p>
+                            <b style="color: black;">Universidad Santiago de Cali</b><br>
+                            <span>2019-2025</span><br>
+                            <span>Ingenieria de Sistema</span>
+                        </p>
+                    </div>
+
+                    <div id="cat_intereses" class="category_content">
+                        <div>
+                            <span ><i class="fa-solid fa-book"></i> Leer</span><br>
+                            <span ><i class="fa-solid fa-music"></i> Musica</span><br>
+                            <span ><i class="fa-solid fa-camera-retro"></i> Fotos</span><br>
+                            <span ><i class="fa-brands fa-pagelines"></i> Jardinería</span><br>
+                            <span ><i class="fa-solid fa-kitchen-set"></i> Cocinar</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="btn_descargar">
+                <a href="./assets/documentos/CV/Camila_Urbano.pdf" download="Camila_Urbano.pdf" target="_blank">Descargar CV <i class="fa-solid fa-download"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CERTIFICADOS -->
+    <section id="certificados">
+        <h2>Certificados</h2>
+        <div class="container_cert">
+            <div class="card_cert">
+                <h2>Programación Fullstack</h2>
+                <p>Talento Tech / TIC – 2025</p>
+            </div>
+            <div class="card_cert">
+                <h2>Certificado HTML y CSS en detalle</h2>
+                <p>Coursera / Meta – 2025</p>
+            </div>
+            <div class="card_cert">
+                <h2>Programación con JavaScript</h2>
+                <p>Coursera / Meta – 2025</p>
+            </div>
+            <div class="card_cert">
+                <h2>React avanzado</h2>
+                <p>Coursera / Meta – 2025</p>
+            </div>
+            <div class="card_cert">
+                <h2>Control de versiones</h2>
+                <p>Coursera / Meta – 2025</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+
+        <div class="container_proyectos">
+
+            <div class="card_proyecto">
+                <div class="foto_proyecto">
+                    <img src="assets/proyectos/prisma_studio.png" alt="Imagen del proyecto"/>
+                </div>
+                <span>Prisma Studio</span>
+                <div class="proyecto_links">
+                    <a href="https://camila-397.github.io/Prisma_Studio/" target="_blanck" rel="noopener noreferrer" title="Ver Pagina"><i class="fa-solid fa-globe"></i> Ver Pagina</a>
+                    <a href="https://github.com/camila-397/Prisma_Studio" target="_blanck" rel="noopener noreferrer" title="Ver Codigo"><i class="fa-brands fa-github"></i> Ver Codigo</a>
+                </div>
+            </div>
+
+            <div class="card_proyecto">
+                <div class="foto_proyecto">
+                    <img src="assets/proyectos/garden_of_eden.jpeg" alt="Imagen del proyecto"/>
+                </div>
+                <span>Garden Of Eden</span>
+                <div class="proyecto_links">
+                    <a href="https://camila-397.github.io/GardenOfEden/" target="_blanck" rel="noopener noreferrer" title="Ver Pagina"><i class="fa-solid fa-globe"></i> Ver Pagina</a>
+                    <a href="https://github.com/camila-397/GardenOfEden" target="_blanck" rel="noopener noreferrer" title="Ver Codigo"><i class="fa-brands fa-github"></i> Ver Codigo</a>
+                </div>
+            </div>
+
+            <div class="card_proyecto">
+                <div class="foto_proyecto">
+                    <img src="assets/proyectos/tareApp.png" alt="Imagen del proyecto"/>
+                </div>
+                <span>TareApp</span>
+                <div class="proyecto_links">
+                    <a href="https://camila-397.github.io/TareApp/" target="_blanck" rel="noopener noreferrer" title="Ver Pagina"><i class="fa-solid fa-globe"></i> Ver Pagina</a>
+                    <a href="https://github.com/camila-397/TareApp" target="_blanck" rel="noopener noreferrer" title="Ver Codigo"><i class="fa-brands fa-github"></i> Ver Codigo</a>
+                </div>
+            </div>
+
+            <div class="card_proyecto">
+                <div class="foto_proyecto">
+                    <img src="assets/proyectos/kaleido.png" alt="Imagen del proyecto"/>
+                </div>
+                <span>Kaleido - Buscador de Imagenes</span>
+                <div class="proyecto_links">
+                    <a href="https://camila-397.github.io/Kaleido/" target="_blanck" rel="noopener noreferrer" title="Ver Pagina"><i class="fa-solid fa-globe"></i> Ver Pagina</a>
+                    <a href="https://github.com/camila-397/Kaleido" target="_blanck" rel="noopener noreferrer" title="Ver Codigo"><i class="fa-brands fa-github"></i> Ver Codigo</a>
+                </div>
+            </div>
+
+            <div class="card_proyecto">
+                <div class="foto_proyecto">
+                    <img src="assets/proyectos/quiz.jpeg" alt="Imagen del proyecto"/>
+                </div>
+                <span>Quiz</span>
+                <div class="proyecto_links">
+                    <a href="https://camila-397.github.io/Quiz/" target="_blanck" rel="noopener noreferrer" title="Ver Pagina"><i class="fa-solid fa-globe"></i> Ver Pagina</a>
+                    <a href="https://github.com/camila-397/Quiz" target="_blanck" rel="noopener noreferrer" title="Ver Codigo"><i class="fa-brands fa-github"></i> Ver Codigo</a>
+                </div>
+            </div>
+
+            <div class="card_proyecto">
+                <div class="foto_proyecto">
+                    <img src="assets/proyectos/juego_de_memoria.jpeg" alt="Imagen del proyecto"/>
+                </div>
+                <span>Juego de Memoria</span>
+                <div class="proyecto_links">
+                    <a href="https://camila-397.github.io/Memory_Game/" target="_blanck" rel="noopener noreferrer" title="Ver Pagina"><i class="fa-solid fa-globe"></i> Ver Pagina</a>
+                    <a href="https://github.com/camila-397/Memory_Game" target="_blanck" rel="noopener noreferrer" title="Ver Codigo"><i class="fa-brands fa-github"></i> Ver Codigo</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="more">
+            <a href="https://github.com/camila-397?tab=repositories" target="_blank" rel="noopener noreferrer">Ver más proyectos</a>
+        </div>
+
+    </section>
+    
+    <!-- CONTACTO -->
+    <section id="contacto">
+        <h2>Contáctame</h2>
+        <div class="container_contacto">
+            <div class="datos">
+                <h2>Háblame</h2>
+                <a class="dato">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Email</span>
+                    <p>camila.us465@gmail.com</p>
+                </a>
+                <a class="dato" href="https://wa.me/3187302078?text=Buenos días." target="_blank" rel="noopener noreferrer" >
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span>Whatsapp</span>
+                    <p>3187302078</p>
+                </a>
+            </div>
+            <div class="formulario">
+                <h2>Escribeme</h2>
+                <form id="form">
+                    <div class="name">
+                        <input id="name" name="name" type="text" placeholder="Nombre Completo*"/>
+                    </div>
+                    
+                    <div class="email">
+                        <input id="email" name="email" type="email" placeholder="Correo Electrónico*"/>
+                    </div>
+    
+                    <div class="message">
+                        <textarea id="message" name="message" placeholder="Mensaje*"></textarea>
+                    </div>
+    
+                    <button type="submit" id="button" >Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FOOTER -->
+    <footer>
+        <h1>Laura Camila Urbano Suarez</h1>
+        <span>Egresada de Ingeniería</span>
+        <div class="redes">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=camila.us465@gmail.com&su=Consulta&body=Hola,%20quiero%20más%20información" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-envelope"></i></a>
+            <a href="https://wa.me/3187302078?text=Buenos días." target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/lauracamila-urbano-suarez-50a160259/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p class='derechos'>
+            &copy; 2025 Laura Camila Urbano Suarez. Todos los derechos reservados.
+        </p>
+    </footer>
+
+
+    <script src="./js/perfil.js"></script>
+    <script src="./js/form.js"></script>
+</body>
+</html>

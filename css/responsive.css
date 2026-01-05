@@ -1,0 +1,126 @@
+
+/********************************************* HEADER  *********************************************/
+@media (max-width: 829px) {
+    header label img{
+        display: block;
+    }
+
+    nav{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        height: 0px;
+        background-color: #4B5563;
+        transition: all ease-in-out .3s;
+    }
+
+    nav ul li{
+        padding: 10px 0;
+    }
+
+    nav ul li a{
+        color: #ffffff;
+    }
+
+    nav ul li a:hover{
+        color: #ffffff;
+    }
+    nav ul li a::before,
+    nav ul li a:hover::before{
+        background-color: #ffffff;
+    }
+
+    nav ul{
+        margin: 20px;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 0px;
+        overflow: hidden;
+        transition: all ease-in-out .3s;
+    }
+
+    #menu:checked ~ nav{
+        height: 340px;
+    }
+
+    #menu:checked ~ nav ul{
+        height: 340px;
+    }
+
+}
+
+/********************************************* INICIO  *********************************************/
+@media (max-width: 890px) {
+    #inicio {
+        flex-direction: column-reverse;
+    }
+
+    .btn_hablame,
+    .datos .oficio,
+    .datos .nombre_completo {
+        text-align: center;
+    }
+
+    .datos .oficio {
+        font-size: 12px;
+    }
+
+    .datos .nombre_completo {
+        font-size: 20px;
+    }
+
+    #inicio .foto {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/********************************************* SOBRE MI  *********************************************/
+@media (max-width: 954px) {
+    .info .foto_sobreMi {
+        width: 200px;
+        height: 200px;
+    }
+
+    .btn_sobreMi div {
+        font-size: 12px;
+        padding: 10px 25px;
+    }
+
+    .info_categorias .category_content {
+        width: 80%;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 530px) {
+    .info_categorias .category_content {
+        width: 90%;
+    }
+}
+
+/*********************************************  CONTACTO *********************************************/
+@media (max-width: 1106px) {
+    #contacto .container_contacto {
+        flex-direction: column;
+    }
+
+    #contacto .formulario {
+        width: 90%;
+        margin-top: 50px;
+    }
+
+}
+
+@media (max-width: 454px) {
+    #contacto .formulario {
+        width: 100%;
+    }
+}
+/*********************************************   *********************************************/
+/*********************************************   *********************************************/
+/*********************************************   *********************************************/
+/*********************************************   *********************************************/

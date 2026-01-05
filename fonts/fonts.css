@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Kanit-Bold';
+    src: url('./Kanit/Kanit-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Kanit-Regular';
+    src: url('./Kanit/Kanit-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'SourceSans3-Regular';
+    src: url('./Source/SourceSans3-Regular.ttf');
+}
